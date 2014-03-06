@@ -1,0 +1,95 @@
+#scene_main{
+    background-color: #000;
+
+}
+
+#scene_main div{ 
+    color: #fff;
+}
+
+#scene_main div.title{ 
+    font-size: 20pt;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#scene_main div.state{
+    display: inline-block;
+ 
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 14pt;
+}
+
+#scene_main div.state span{
+    color: burlywood;
+ 
+}
+
+#scene_main div.log-container{
+    display: inline-block;
+ 
+    position: absolute;
+    top: 112px;
+    left: 10px;
+}
+
+#scene_main div.log-container > div{
+    font-size: 14pt;
+ 
+}
+
+#scene_main div.log-container ul{
+    position: relative;
+ 
+    top: 12px;
+    width: 495px;
+    padding: 18px;
+}
+
+#scene_main div.log-container ul li{ 
+    line-height: 30px
+}
+
+#scene_main div.log-container ul li.pointer-1{
+   background: darkcyan;
+}
+#scene_main div.log-container ul li.pointer-2{ 
+   background: salmon;
+}
+
+#canvas{
+    
+    background-color: aliceblue;
+    width: 720px;
+    float: right;
+    height: 720px;
+    position: relative;
+}
+
+#pointer_one{
+    position: absolute;
+    width: 10px;
+    display: inline-block;
+    height: 10px;
+    border-radius: 5px;text-align:center;
+    background: salmon;
+    
+    top: 10px;
+    left: 0px;
+}
+
+#pointer_two{
+    position: absolute;
+    width: 10px;
+    display: inline-block;
+    height: 10px;
+    border-radius: 5px;text-align:center;
+    background: darkcyan;
+    
+    top: 0px;
+    left: 0px;
+}

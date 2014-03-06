@@ -1,0 +1,8 @@
+body { width: 1280px; height: 720px; }
+div.scene { width: 1280px; height: 720px; }
+#testline {
+	display: inline-block;
+	height: 20px;
+	background: #fff;
+	width: 0px;
+}
